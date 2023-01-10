@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B6E7A0296D5FBD005260FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E79F296D5FBD005260FD /* AppDelegate.swift */; };
+		05B6E7A2296D5FBD005260FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7A1296D5FBD005260FD /* SceneDelegate.swift */; };
+		05B6E7A4296D5FBD005260FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7A3296D5FBD005260FD /* ViewController.swift */; };
+		05B6E7A7296D5FBD005260FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B6E7A5296D5FBD005260FD /* Main.storyboard */; };
+		05B6E7AA296D5FBD005260FD /* COBACRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7A8296D5FBD005260FD /* COBACRUD.xcdatamodeld */; };
+		05B6E7AC296D5FBE005260FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B6E7AB296D5FBE005260FD /* Assets.xcassets */; };
+		05B6E7AF296D5FBE005260FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B6E7AD296D5FBE005260FD /* LaunchScreen.storyboard */; };
+		05B6E7BA296D5FBE005260FD /* COBACRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7B9296D5FBE005260FD /* COBACRUDTests.swift */; };
+		05B6E7C4296D5FBE005260FD /* COBACRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7C3296D5FBE005260FD /* COBACRUDUITests.swift */; };
+		05B6E7C6296D5FBE005260FD /* COBACRUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7C5296D5FBE005260FD /* COBACRUDUITestsLaunchTests.swift */; };
+		05B6E7D3296D62D8005260FD /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7D2296D62D8005260FD /* AddStudentVC.swift */; };
+		05B6E7D6296D6547005260FD /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7D4296D6547005260FD /* Student+CoreDataClass.swift */; };
+		05B6E7D7296D6547005260FD /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7D5296D6547005260FD /* Student+CoreDataProperties.swift */; };
+		05B6E7D9296D6579005260FD /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6E7D8296D6579005260FD /* DBManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B6E7B6296D5FBE005260FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B6E794296D5FBD005260FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B6E79B296D5FBD005260FD;
+			remoteInfo = COBACRUD;
+		};
+		05B6E7C0296D5FBE005260FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B6E794296D5FBD005260FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B6E79B296D5FBD005260FD;
+			remoteInfo = COBACRUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B6E79C296D5FBD005260FD /* COBACRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COBACRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B6E79F296D5FBD005260FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05B6E7A1296D5FBD005260FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05B6E7A3296D5FBD005260FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05B6E7A6296D5FBD005260FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05B6E7A9296D5FBD005260FD /* COBACRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COBACRUD.xcdatamodel; sourceTree = "<group>"; };
+		05B6E7AB296D5FBE005260FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05B6E7AE296D5FBE005260FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05B6E7B0296D5FBE005260FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B6E7B5296D5FBE005260FD /* COBACRUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBACRUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B6E7B9296D5FBE005260FD /* COBACRUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBACRUDTests.swift; sourceTree = "<group>"; };
+		05B6E7BF296D5FBE005260FD /* COBACRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBACRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B6E7C3296D5FBE005260FD /* COBACRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBACRUDUITests.swift; sourceTree = "<group>"; };
+		05B6E7C5296D5FBE005260FD /* COBACRUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBACRUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05B6E7D2296D62D8005260FD /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		05B6E7D4296D6547005260FD /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05B6E7D5296D6547005260FD /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05B6E7D8296D6579005260FD /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05B6E799296D5FBD005260FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7B2296D5FBE005260FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7BC296D5FBE005260FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B6E793296D5FBD005260FD = {
+			isa = PBXGroup;
+			children = (
+				05B6E79E296D5FBD005260FD /* COBACRUD */,
+				05B6E7B8296D5FBE005260FD /* COBACRUDTests */,
+				05B6E7C2296D5FBE005260FD /* COBACRUDUITests */,
+				05B6E79D296D5FBD005260FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05B6E79D296D5FBD005260FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05B6E79C296D5FBD005260FD /* COBACRUD.app */,
+				05B6E7B5296D5FBE005260FD /* COBACRUDTests.xctest */,
+				05B6E7BF296D5FBE005260FD /* COBACRUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05B6E79E296D5FBD005260FD /* COBACRUD */ = {
+			isa = PBXGroup;
+			children = (
+				05B6E7D4296D6547005260FD /* Student+CoreDataClass.swift */,
+				05B6E7D5296D6547005260FD /* Student+CoreDataProperties.swift */,
+				05B6E7D2296D62D8005260FD /* AddStudentVC.swift */,
+				05B6E79F296D5FBD005260FD /* AppDelegate.swift */,
+				05B6E7A1296D5FBD005260FD /* SceneDelegate.swift */,
+				05B6E7A3296D5FBD005260FD /* ViewController.swift */,
+				05B6E7A5296D5FBD005260FD /* Main.storyboard */,
+				05B6E7AB296D5FBE005260FD /* Assets.xcassets */,
+				05B6E7AD296D5FBE005260FD /* LaunchScreen.storyboard */,
+				05B6E7B0296D5FBE005260FD /* Info.plist */,
+				05B6E7A8296D5FBD005260FD /* COBACRUD.xcdatamodeld */,
+				05B6E7D8296D6579005260FD /* DBManager.swift */,
+			);
+			path = COBACRUD;
+			sourceTree = "<group>";
+		};
+		05B6E7B8296D5FBE005260FD /* COBACRUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				05B6E7B9296D5FBE005260FD /* COBACRUDTests.swift */,
+			);
+			path = COBACRUDTests;
+			sourceTree = "<group>";
+		};
+		05B6E7C2296D5FBE005260FD /* COBACRUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05B6E7C3296D5FBE005260FD /* COBACRUDUITests.swift */,
+				05B6E7C5296D5FBE005260FD /* COBACRUDUITestsLaunchTests.swift */,
+			);
+			path = COBACRUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B6E79B296D5FBD005260FD /* COBACRUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B6E7C9296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUD" */;
+			buildPhases = (
+				05B6E798296D5FBD005260FD /* Sources */,
+				05B6E799296D5FBD005260FD /* Frameworks */,
+				05B6E79A296D5FBD005260FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COBACRUD;
+			productName = COBACRUD;
+			productReference = 05B6E79C296D5FBD005260FD /* COBACRUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05B6E7B4296D5FBE005260FD /* COBACRUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B6E7CC296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUDTests" */;
+			buildPhases = (
+				05B6E7B1296D5FBE005260FD /* Sources */,
+				05B6E7B2296D5FBE005260FD /* Frameworks */,
+				05B6E7B3296D5FBE005260FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B6E7B7296D5FBE005260FD /* PBXTargetDependency */,
+			);
+			name = COBACRUDTests;
+			productName = COBACRUDTests;
+			productReference = 05B6E7B5296D5FBE005260FD /* COBACRUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05B6E7BE296D5FBE005260FD /* COBACRUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B6E7CF296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUDUITests" */;
+			buildPhases = (
+				05B6E7BB296D5FBE005260FD /* Sources */,
+				05B6E7BC296D5FBE005260FD /* Frameworks */,
+				05B6E7BD296D5FBE005260FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B6E7C1296D5FBE005260FD /* PBXTargetDependency */,
+			);
+			name = COBACRUDUITests;
+			productName = COBACRUDUITests;
+			productReference = 05B6E7BF296D5FBE005260FD /* COBACRUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05B6E794296D5FBD005260FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					05B6E79B296D5FBD005260FD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					05B6E7B4296D5FBE005260FD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05B6E79B296D5FBD005260FD;
+					};
+					05B6E7BE296D5FBE005260FD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05B6E79B296D5FBD005260FD;
+					};
+				};
+			};
+			buildConfigurationList = 05B6E797296D5FBD005260FD /* Build configuration list for PBXProject "COBACRUD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05B6E793296D5FBD005260FD;
+			productRefGroup = 05B6E79D296D5FBD005260FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B6E79B296D5FBD005260FD /* COBACRUD */,
+				05B6E7B4296D5FBE005260FD /* COBACRUDTests */,
+				05B6E7BE296D5FBE005260FD /* COBACRUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05B6E79A296D5FBD005260FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B6E7AF296D5FBE005260FD /* LaunchScreen.storyboard in Resources */,
+				05B6E7AC296D5FBE005260FD /* Assets.xcassets in Resources */,
+				05B6E7A7296D5FBD005260FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7B3296D5FBE005260FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7BD296D5FBE005260FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05B6E798296D5FBD005260FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B6E7AA296D5FBD005260FD /* COBACRUD.xcdatamodeld in Sources */,
+				05B6E7D6296D6547005260FD /* Student+CoreDataClass.swift in Sources */,
+				05B6E7D3296D62D8005260FD /* AddStudentVC.swift in Sources */,
+				05B6E7D9296D6579005260FD /* DBManager.swift in Sources */,
+				05B6E7A4296D5FBD005260FD /* ViewController.swift in Sources */,
+				05B6E7A0296D5FBD005260FD /* AppDelegate.swift in Sources */,
+				05B6E7A2296D5FBD005260FD /* SceneDelegate.swift in Sources */,
+				05B6E7D7296D6547005260FD /* Student+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7B1296D5FBE005260FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B6E7BA296D5FBE005260FD /* COBACRUDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B6E7BB296D5FBE005260FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B6E7C6296D5FBE005260FD /* COBACRUDUITestsLaunchTests.swift in Sources */,
+				05B6E7C4296D5FBE005260FD /* COBACRUDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B6E7B7296D5FBE005260FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B6E79B296D5FBD005260FD /* COBACRUD */;
+			targetProxy = 05B6E7B6296D5FBE005260FD /* PBXContainerItemProxy */;
+		};
+		05B6E7C1296D5FBE005260FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B6E79B296D5FBD005260FD /* COBACRUD */;
+			targetProxy = 05B6E7C0296D5FBE005260FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05B6E7A5296D5FBD005260FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05B6E7A6296D5FBD005260FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05B6E7AD296D5FBE005260FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05B6E7AE296D5FBE005260FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05B6E7C7296D5FBE005260FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05B6E7C8296D5FBE005260FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05B6E7CA296D5FBE005260FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COBACRUD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05B6E7CB296D5FBE005260FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COBACRUD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05B6E7CD296D5FBE005260FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COBACRUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COBACRUD";
+			};
+			name = Debug;
+		};
+		05B6E7CE296D5FBE005260FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COBACRUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COBACRUD";
+			};
+			name = Release;
+		};
+		05B6E7D0296D5FBE005260FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COBACRUD;
+			};
+			name = Debug;
+		};
+		05B6E7D1296D5FBE005260FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coba.COBACRUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COBACRUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B6E797296D5FBD005260FD /* Build configuration list for PBXProject "COBACRUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B6E7C7296D5FBE005260FD /* Debug */,
+				05B6E7C8296D5FBE005260FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B6E7C9296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B6E7CA296D5FBE005260FD /* Debug */,
+				05B6E7CB296D5FBE005260FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B6E7CC296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B6E7CD296D5FBE005260FD /* Debug */,
+				05B6E7CE296D5FBE005260FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B6E7CF296D5FBE005260FD /* Build configuration list for PBXNativeTarget "COBACRUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B6E7D0296D5FBE005260FD /* Debug */,
+				05B6E7D1296D5FBE005260FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05B6E7A8296D5FBD005260FD /* COBACRUD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05B6E7A9296D5FBD005260FD /* COBACRUD.xcdatamodel */,
+			);
+			currentVersion = 05B6E7A9296D5FBD005260FD /* COBACRUD.xcdatamodel */;
+			path = COBACRUD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05B6E794296D5FBD005260FD /* Project object */;
+}
